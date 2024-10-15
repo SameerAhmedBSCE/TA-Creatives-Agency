@@ -490,3 +490,27 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+
+/* Neww Css */
+/* Default logo size */
+.logo-img {
+    height: auto;
+    width: 300px; /* Adjust size as needed */
+}
+
+/* Adjust logo when sticky-top has white background */
+.sticky-top.navbar-dark.background-white .navbar-nav .nav-link {
+    color: var(--dark);
+}
+
+.sticky-top.navbar-dark.background-white .navbar-brand h1 {
+    color: var(--primary);
+}
+
+/* Sticky navbar with white background */
+.sticky-top.navbar-dark {
+    background: #FFFFFF;
+    color: var(--dark);
+}
+
