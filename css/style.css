@@ -513,4 +513,30 @@ h6,
     background: #FFFFFF;
     color: var(--dark);
 }
+@media (max-width: 767px) {
+    .logo-img {
+        content: url('../img/talogob.png'); /* Image for mobile view */
+    }
+}
+.navbar-toggler {
+    margin-right: auto; /* Pushes the toggler to the left */
+}
 
+/* Center-aligns the logo */
+.navbar-brand {
+    text-align: center;
+    margin-left: auto; /* Ensures the logo stays in the center */
+}
+
+/* Default logo styling */
+.logo-img {
+    height: auto;
+    /* width: 200px; Adjust size as needed */
+}
+
+/* Adjust for mobile */
+@media (max-width: 767px) {
+    .logo-img {
+        width: 200px; /* Adjust the size for mobile */
+    }
+}
